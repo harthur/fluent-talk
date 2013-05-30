@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="normalize.css"/>
+  <link rel="stylesheet" href="fluent-tweets.css"/>
+
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="jquery.js"></script>
+  <script src="jquery.timeago.js"></script>
+  <script src="handlebars.js"></script>
+  <script src="twitter-text.js"></script>
+  <script src="fluent-tweets.js"></script>
+  <script src="apis.js"></script>
+
+  <script id="tweet-template" type="text/html">
+    <div class="tweet">
+      <img class="tweet-image" src="{{profile_image_url}}">
+      </img>
+      <div class="tweet-info">
+        <div class="tweet-title">
+          <a href="http://twitter.com/{{from_user}}" class="tweet-link">
+            <span class="tweet-name">
+              {{from_user_name}}
+            </span>
+            <span class="tweet-username">
+              @{{from_user}}
+            </span>
+          </a>
+          <span class="tweet-time">
+            {{timeago created_at}}
+          </span>
+        </div>
+        <div class="tweet-body">
+          {{{text}}}
+        </div>
+      </div>
+    </div>
+  </script>
+
+</head>
+<body>
+  <div id="title">
+    Fluent Tweets
+  </div>
+    <div id="content">
+      <section id="tweets">
+      </section>
+    </div>
+</body>
+</html>

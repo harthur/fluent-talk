@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+body {
+  font-family: 'Roboto Slab';
+}
+
+main {
+  width: 100%;
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-orient: vertical;
+}
+
+.more-info {
+  width: 100%;
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-orient: vertical;
+  margin-top: 24px;
+  color: hsl(200, 95%, 75%);
+  font-size: 1.1em;
+}
+
+h1 {
+  margin: 2em 0 0;
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 1.8em;
+  margin: 1em 0 0;
+}
+
+::-moz-selection {
+  background: black;
+}
+
+::selection {
+  background: black;
+}

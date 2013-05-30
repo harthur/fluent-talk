@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+body {
+  font-family: Helvetica Neue, sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+
+a {
+  color: rgb(8, 130, 83);
+  text-decoration: none;
+}
+
+#title {
+  font-family: Roboto Slab, Georgia, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  color: hsl(0, 0%, 20%);
+  font-size: 5em;
+}
+
+#title-image {
+  display: block;
+  margin: auto;
+}
+
+#content {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+}
+
+#events {
+  width: 400px;
+  float: left;
+}
+
+#tweets {
+  width: 360px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.upcoming, .upcoming:visited {
+  color: hsl(0, 0%, 0%);
+}
+
+.past, .past:visited {
+  color: hsl(0, 0%, 30%);
+}
+
+.tweet {
+  font-size: 14px;
+  padding: 0.9em;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.tweet:hover {
+  background-color: hsl(120, 60%, 95%);
+}
+
+.tweet-title {
+  font-family: Arial;
+}
+
+.tweet-link {
+  color: hsl(0, 0%, 20%);
+  text-decoration: none;
+}
+.tweet-name {
+  font-weight: bold;
+}
+
+.tweet-username {
+  font-size: 0.84em;
+}
+
+.tweet-body {
+  font-size: 0.9em;
+}
+
+.tweet-time {
+  color: hsl(0, 0%, 40%);
+  font-size: 0.8em;
+  float: right;
+}
+
+.tweet-image {
+  width: 36px;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid #CCC;
+}
+
+.tweet-info {
+  padding-left: 10px;
+}
