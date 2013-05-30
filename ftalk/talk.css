@@ -9,6 +9,7 @@ main {
   display: -moz-box;
   -moz-box-align: center;
   -moz-box-orient: vertical;
+  margin-bottom: 25px;
 }
 
 .more-info {
@@ -18,12 +19,12 @@ main {
   -moz-box-orient: vertical;
   margin-top: 24px;
   color: hsl(200, 95%, 75%);
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 h1 {
   margin: 2em 0 0;
-  font-size: 3em;
+  font-size: 3.4em;
 }
 
 h4 {
